@@ -34,9 +34,9 @@
 ## 🎯 Project Essentials
 
 ### **Project Identity**
-- **MVP Name**: `[Your MVP Name]`
-- **One-Line Description**: `[What does it do in 10 words or less?]`
-- **Problem**: `[What problem does this solve?]`
+- **MVP Name**: FootImproveness
+- **One-Line Description**: Landing con métodos de contacto para que me contacten jugadores de futbol que quieran mejorar y yo darles ejercicios.
+- **Problem**: La necesidad de ejercicios específicos para cada jugador, ver en que flojea cada uno y hacer rutinas especificas en base a sus necesidades
 
 ### **MVP Category** ⚡ *Pick ONE*
 - [ ] 🛍️ E-commerce/Marketplace
@@ -45,7 +45,7 @@
 - [ ] 📝 Content/Blog Platform
 - [ ] 🗓️ Booking/Scheduling
 - [ ] 👥 Social/Community
-- [ ] 📄 Landing Page + Signup
+- [X] 📄 Landing Page
 - [ ] 🔧 Other: `[Specify]`
 
 ---
@@ -55,29 +55,30 @@
 > **Critical**: List ONLY the absolute essentials. Extra features = slower delivery.
 > **IMPORTANT**: Devs MUST explain the calculus done if needed.
 
-1. **Feature 1**: `[What it does + who uses it]`
-2. **Feature 2**: `[What it does + who uses it]`
-3. **Feature 3**: `[What it does + who uses it]`
-4. **Feature 4**: `[What it does + who uses it]`
-5. **Feature 5**: `[What it does + who uses it]`
+1. **Feature 1**: Una landing atractiva con un formulario para que el jugador me de una descripcion de el y lo que quiere alcanzar, con typeform usando un modal. Sleccionar horario a la que puedo contactar al cliente y por donde quiere que le contacte para tener una llamada tras que haga el formulario
+2. **Feature 2**: EL usuario puede hacceder a pagina métodos de contacto para ver mi contacto
+3. **Feature 3**: El suuario puede acceder a mi pagina con mi Historia profesional mia(Soy graduado en cafyd y tengo un master en preparacion deportiva)
 
 ### **Primary User Journey** 🛤️
 ```
-Landing Page → [Action 1] → [Action 2] → [Success State]
+Landing -> rellena formulario --> selecciona método de contacto 
 ```
+Secondaries
+Landing --> Metodos de contacto
+Landing --> Mi historia profesional
 
 ---
 
 ## 👤 Users & Authentication
 
 ### **Authentication Type** ⚡ *Pick ONE*
-- [ ] 🚫 No auth needed (public app)
+- [X] 🚫 No auth needed (public app)
 - [ ] 📧 Email + Password (simple)
 - [ ] 🔗 Magic Link (passwordless)
 - [ ] 🔐 Google OAuth (fastest signup)
 
 ### **User Types** ⚡ *Pick ONE*
-- [ ] Single user type (everyone same permissions)
+- [X] Single user type (everyone same permissions)
 - [ ] Two types: `[Type 1]` and `[Type 2]`
 - [ ] Admin + Users (admin can manage everything)
 
@@ -88,35 +89,16 @@ Landing Page → [Action 1] → [Action 2] → [Success State]
 ### **Main Data Objects**
 > What does your app store? Keep it simple.
 
-**Object 1: `[Name - e.g., "User"]`**
-```
-- field1: type (e.g., email: string)
-- field2: type (e.g., name: string)
-- field3: type
-```
-
-**Object 2: `[Name - e.g., "Post/Product/Booking"]`**
-```
-- field1: type
-- field2: type
-- field3: type
-```
-
-**Object 3: `[Name]` (if needed)**
-```
-- field1: type
-- field2: type
-```
-
-### **Relationships**
-- `[Object A]` → belongs to → `[Object B]`
 
 ---
 
 ## 🎨 Design & UI (Speed Defaults)
 
-### **Style Direction** ⚡ *Pick ONE*
-- [ ] 🎯 **Clean & Minimal** (fastest - recommended)
+Este apartado es el más importante,
+
+
+### **Style Direction** ⚡ *Pick ONE* IT HAS TO BE INTO THE DIRECTION OF THE USERS, IN THIS CASE, YOUNG MEN THAT PLAYS FOOTBALL
+- [X] 🎯 **Clean & Minimal** (fastest - recommended)
 - [ ] 💼 **Professional/Corporate**
 - [ ] 🎨 **Modern/Trendy**
 - [ ] 🌙 **Light/Dark Mode Detected style og environment**
@@ -126,7 +108,7 @@ Landing Page → [Action 1] → [Action 2] → [Success State]
 - ✅ **TailwindCSS** (rapid styling)
 - ✅ **Responsive Design** (mobile-first)
 
-### **Colors** (Optional - will use good defaults)
+### **Colors** (Optional - will use good defaults) BEST COLORS FOR YOUNG MEN THAT PLAY FOOTBALL
 - Primary: `[color name or #hex]` 
 - Secondary: `[color name or #hex]`
 
@@ -135,15 +117,14 @@ Landing Page → [Action 1] → [Action 2] → [Success State]
 ## 📱 Pages & Structure
 
 ### **Required Pages** ⚡ *List ALL pages*
-1. **Homepage**: `[What's on it?]`
-2. **Page 2**: `[Purpose?]`
-3. **Page 3**: `[Purpose?]`
-4. **Dashboard/Profile**: `[What user sees after login?]`
-5. **Settings**: `[What settings do users need?]`
+1. **Landing**: Very visual, with button to fill the form
+2. **Mi historia**: Mostrar mi trayextoria profesional y foto mia Historia profesional mia(Soy graduado en cafyd y tengo un master en preparacion deportiva)
+3. **Mis contactos**: Contactos posible, logo de redes sociales y numero de telefono y mail
+
 
 ### **Navigation** 
 ```
-Header: [Link 1] | [Link 2] | [Link 3] | [Login/Profile]
+Header: Contactame | Mi historia profesional 
 ```
 
 ---
@@ -162,20 +143,16 @@ Header: [Link 1] | [Link 2] | [Link 3] | [Login/Profile]
 - [ ] 🔍 **Algolia** (search)
 
 ### **Deployment** ⚡ *Auto-Selected*
-- ✅ **Vercel + GitHub** (automatic deployments)
+- ✅ **Vercel + GitHub** (automatic deployments) DONE IT BY MYSELF
 
 ---
 
 ## 📧 Communications
 
-### **Email Needs** ⚡ *Check what's needed*
-- [ ] Welcome email
-- [ ] Password reset
-- [ ] Notifications
-- [ ] Marketing emails
+
 
 ### **Notifications**
-- [ ] Success/error messages (toast)
+- [X] Success/error messages (toast)
 - [ ] Email notifications
 - [ ] Real-time updates
 
@@ -184,42 +161,21 @@ Header: [Link 1] | [Link 2] | [Link 3] | [Login/Profile]
 ## 💼 Business Logic
 
 ### **Key Rules** (if any)
-1. `[Rule 1 - e.g., "Free users get 3 projects max"]`
-2. `[Rule 2 - e.g., "Files must be under 10MB"]`
-3. `[Rule 3]`
+
 
 ### **Special Features** ⚡ *Check if needed*
-- [ ] Search/Filter
-- [ ] File uploads
-- [ ] Real-time updates
-- [ ] Export data
-- [ ] Email notifications
-- [ ] Payment processing
+
 
 ---
 
 ## 🎯 Success & Analytics
 
 ### **What Makes This MVP Successful?**
-- Success Metric 1: `[e.g., "100 signups in first week"]`
-- Success Metric 2: `[e.g., "Users create their first project"]`
+- Success Metric 1: El suuario clica el boton para rellenar el formulario
+
 
 ---
 
-## 📝 Context & References
-
-### **Additional Context**
-```
-[Anything else I should know? Special requirements? Constraints?]
-```
-
-### **Inspiration** (Optional)
-- Similar app/website: `[URL or description]`
-- Reference design: `[URL or description]`
-
-### **Timeline**
-- Target Launch: `[Date or "ASAP"]`
-- Priority Level: `[High/Medium/Low]`
 
 ---
 
