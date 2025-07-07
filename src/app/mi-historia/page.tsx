@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { GraduationCap, Award, Calendar, Mail, Star, Trophy, Target, CheckCircle2, Sparkles, Zap, BookOpen, Medal } from "lucide-react";
+import { GraduationCap, Award, Calendar, Mail, Star, Trophy, Target, CheckCircle2, Sparkles,  BookOpen, Medal } from "lucide-react";
 import Link from "next/link";
 import ContactFormModal from "@/components/ContactFormModal";
 
@@ -297,12 +297,12 @@ export default function MiHistoria() {
             
             <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-white/20">
               <blockquote className="text-xl md:text-2xl text-emerald-100 leading-relaxed italic">
-                "Cada jugador es único, con sus propias fortalezas y áreas de mejora. 
+                &quot;Cada jugador es único, con sus propias fortalezas y áreas de mejora. 
                 Mi enfoque se basa en la ciencia del deporte para crear programas que no solo 
                 mejoren el rendimiento, sino que también respeten la individualidad de cada persona. 
                 <span className="font-bold text-white not-italic">
                   El éxito viene de la combinación perfecta entre conocimiento científico y pasión por el fútbol.
-                </span>"
+                </span>&quot;
               </blockquote>
               
               <div className="flex items-center justify-center mt-8 gap-4">

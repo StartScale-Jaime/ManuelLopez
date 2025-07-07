@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { Calendar, Clock, MessageSquare, User, CheckCircle, Mail, Phone, Target, Star, Sparkles, Zap, AlertCircle } from "lucide-react";
+import { Calendar, Clock, User, CheckCircle, Mail, Phone, Target, Star, Sparkles, Zap, AlertCircle } from "lucide-react";
 
 export default function ContactFormModal() {
   const [isOpen, setIsOpen] = useState(false);
